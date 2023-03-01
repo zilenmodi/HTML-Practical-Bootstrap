@@ -12,13 +12,15 @@
         rel="stylesheet">
     <link href="./styles/navbar.css" rel="stylesheet">
     <link href="./styles/header.css" rel="stylesheet">
+    <link href="./styles/main-body.css" rel="stylesheet">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <title>Filpcart</title>
 </head>
 
 <body>
-    <div class="container-fluid p-0	bg-light">
+    <div class="container-fluid p-0">
         <!-- Content here -->
         <!-- Navbar -->
         <nav class="navbar navbar-light bg-primary">
@@ -62,7 +64,7 @@
         </nav>
 
         <!-- Header -->
-        <header class="container-fluid bg-light">
+        <header class="container-fluid bg-white">
             <div class="d-flex overflow-auto mx-auto gap-md-5 gap-4 header-items">
                 <div class="px-2 py-1 d-flex flex-column justify-content-center align-items-center text-center">
                     <div class="header-item-img">
@@ -156,10 +158,310 @@
                 </div>
             </div>
         </header>
+
+        <!-- Main Body -->
+        <main class="container-fluid">
+            <section class="horizontal-bar-items-section d-flex my-3 mx-auto gap-3">
+                <div class="horizontal-bar-items-with-card rounded-2 bg-white h-100">
+                    <div
+                        class="d-flex gap-2 flex-sm-row flex-column py-3 justify-content-between align-items-center text-sm-center mx-4">
+                        <div class="d-flex gap-2 flex-sm-row flex-column align-items-center text-center">
+                            <p class="fs-5 fw-bold m-0 me-sm-4">
+                                Deals of the Day
+                            </p>
+                            <span class="m-0 mx-2 clock-icon"><i class="fa fa-clock-o" aria-hidden="true"></i></span>
+                            <p class="m-0 text-muted">
+                                22 : 07 : 36 Left
+                            </p>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary px-3 fs-6 text-uppercase">View All</button>
+                        </div>
+                    </div>
+                    <hr class="m-0 p-0" />
+                    <div class="w-100 h-100 d-flex bg-white wrapper">
+                        <i id="left" class="fa-solid fa-angle-left"></i>
+                        <div class="carousel">
+                            <article class="d-inline-block px-4 py-4 text-center">
+                                <div class="hb-item-card-img">
+                                    <img src="./assets/camera.webp" alt="Camera all">
+                                </div>
+                                <div class="hb-item-card-typo">
+                                    <p class="hb-item-card-typo-heading mb-0">
+                                        Top Mirrorless Cameras
+                                    </p>
+                                    <p class="hb-item-card-typo-subheading1 mb-0">
+                                        Shop Now!
+                                    </p>
+                                    <p class="hb-item-card-typo-subheading2 mb-0">
+                                        Canon, Sony, Fujifilm...
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="d-inline-block px-4 py-4 text-center">
+                                <div class="hb-item-card-img">
+                                    <img src="./assets/fuzzycam.webp" alt="Camera all">
+                                </div>
+                                <div class="hb-item-card-typo">
+                                    <p class="hb-item-card-typo-heading mb-0">
+                                        Instax Cameras
+                                    </p>
+                                    <p class="hb-item-card-typo-subheading1 mb-0">
+                                        From ₹3,999
+                                    </p>
+                                    <p class="hb-item-card-typo-subheading2 mb-0">
+                                        Capture your unique moments
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="d-inline-block px-4 py-4 text-center">
+                                <div class="hb-item-card-img">
+                                    <img src="./assets/mobileall.webp" alt="Camera all">
+                                </div>
+                                <div class="hb-item-card-typo">
+                                    <p class="hb-item-card-typo-heading mb-0">
+                                        Plain Cases & Covers
+                                    </p>
+                                    <p class="hb-item-card-typo-subheading1 mb-0">
+                                        Under ₹169
+                                    </p>
+                                    <p class="hb-item-card-typo-subheading2 mb-0">
+                                        For All Top Models
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="d-inline-block px-4 py-4 text-center">
+                                <div class="hb-item-card-img">
+                                    <img src="./assets/helmetall.webp" alt="Camera all">
+                                </div>
+                                <div class="hb-item-card-typo">
+                                    <p class="hb-item-card-typo-heading mb-0">
+                                        Helmet
+                                    </p>
+                                    <p class="hb-item-card-typo-subheading1 mb-0">
+                                        From ₹699
+                                    </p>
+                                    <p class="hb-item-card-typo-subheading2 mb-0">
+                                        Vega, Steelbird And more
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="d-inline-block px-4 py-4 text-center">
+                                <div class="hb-item-card-img">
+                                    <img src="./assets/ipadall.webp" alt="Camera all">
+                                </div>
+                                <div class="hb-item-card-typo">
+                                    <p class="hb-item-card-typo-heading mb-0">
+                                        Apple iPads
+                                    </p>
+                                    <p class="hb-item-card-typo-subheading1 mb-0">
+                                        Shop Now!
+                                    </p>
+                                    <p class="hb-item-card-typo-subheading2 mb-0">
+                                        Liquid Retina Display
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="d-inline-block px-4 py-4 text-center">
+                                <div class="hb-item-card-img">
+                                    <img src="./assets/shirtall.webp" alt="Camera all">
+                                </div>
+                                <div class="hb-item-card-typo">
+                                    <p class="hb-item-card-typo-heading mb-0">
+                                        Roadster, HRX & more
+                                    </p>
+                                    <p class="hb-item-card-typo-subheading1 mb-0">
+                                        From ₹249
+                                    </p>
+                                    <p class="hb-item-card-typo-subheading2 mb-0">
+                                        T-Shirts, Shirts
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="d-inline-block px-4 py-4 text-center">
+                                <div class="hb-item-card-img">
+                                    <img src="./assets/shoeall.webp" alt="Camera all">
+                                </div>
+                                <div class="hb-item-card-typo">
+                                    <p class="hb-item-card-typo-heading mb-0">
+                                        Best selling Styles
+                                    </p>
+                                    <p class="hb-item-card-typo-subheading1 mb-0">
+                                        Min. 40% Off
+                                    </p>
+                                    <p class="hb-item-card-typo-subheading2 mb-0">
+                                        Woodland, U.S. Polo Assn....
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="d-inline-block px-4 py-4 text-center">
+                                <div class="hb-item-card-img">
+                                    <img src="./assets/fuzzycam.webp" alt="Camera all">
+                                </div>
+                                <div class="hb-item-card-typo">
+                                    <p class="hb-item-card-typo-heading mb-0">
+                                        Instax Cameras
+                                    </p>
+                                    <p class="hb-item-card-typo-subheading1 mb-0">
+                                        From ₹3,999
+                                    </p>
+                                    <p class="hb-item-card-typo-subheading2 mb-0">
+                                        Capture your unique moments
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                        <i id="right" class="fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+                <div class="horizontal-bar-card">
+                    <h2 class="horizontal-bar-header-heading">Top Deals</h2>
+                    <div>
+                        <p class="btn btn-primary">View All</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="horizontal-bar-items-section d-flex my-3 mx-auto">
+                <div class="w-100 rounded-2 bg-white h-100">
+                    <div
+                        class="d-flex gap-2 flex-sm-row flex-column py-3 justify-content-between align-items-sm-center mx-4">
+                        <div class="d-flex flex-column">
+                            <p class="fs-5 fw-bold m-0">
+                                Deals of the Day
+                            </p>
+                            <p class="m-0 text-muted">
+                                Shop Now!
+                            </p>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary px-3 fs-6">View All</button>
+                        </div>
+                    </div>
+                    <hr class="m-0 p-0" />
+                    <div class="w-100 h-100 d-flex bg-white wrapper">
+                        <div class="carousel d-flex overflow-auto">
+                            <article class="d-inline-block px-4 py-4 text-center">
+                                <div class="hb-item-card-img">
+                                    <img src="./assets/camera.webp" alt="Camera all">
+                                </div>
+                                <div class="hb-item-card-typo">
+                                    <p class="hb-item-card-typo-heading mb-0">
+                                        Top Mirrorless Cameras
+                                    </p>
+                                    <p class="hb-item-card-typo-subheading1 mb-0">
+                                        Shop Now!
+                                    </p>
+                                    <p class="hb-item-card-typo-subheading2 mb-0">
+                                        Canon, Sony, Fujifilm...
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="d-inline-block px-4 py-4 text-center">
+                                <div class="hb-item-card-img">
+                                    <img src="./assets/fuzzycam.webp" alt="Camera all">
+                                </div>
+                                <div class="hb-item-card-typo">
+                                    <p class="hb-item-card-typo-heading mb-0">
+                                        Instax Cameras
+                                    </p>
+                                    <p class="hb-item-card-typo-subheading1 mb-0">
+                                        From ₹3,999
+                                    </p>
+                                    <p class="hb-item-card-typo-subheading2 mb-0">
+                                        Capture your unique moments
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="d-inline-block px-4 py-4 text-center">
+                                <div class="hb-item-card-img">
+                                    <img src="./assets/mobileall.webp" alt="Camera all">
+                                </div>
+                                <div class="hb-item-card-typo">
+                                    <p class="hb-item-card-typo-heading mb-0">
+                                        Plain Cases & Covers
+                                    </p>
+                                    <p class="hb-item-card-typo-subheading1 mb-0">
+                                        Under ₹169
+                                    </p>
+                                    <p class="hb-item-card-typo-subheading2 mb-0">
+                                        For All Top Models
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="d-inline-block px-4 py-4 text-center">
+                                <div class="hb-item-card-img">
+                                    <img src="./assets/helmetall.webp" alt="Camera all">
+                                </div>
+                                <div class="hb-item-card-typo">
+                                    <p class="hb-item-card-typo-heading mb-0">
+                                        Helmet
+                                    </p>
+                                    <p class="hb-item-card-typo-subheading1 mb-0">
+                                        From ₹699
+                                    </p>
+                                    <p class="hb-item-card-typo-subheading2 mb-0">
+                                        Vega, Steelbird And more
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="d-inline-block px-4 py-4 text-center">
+                                <div class="hb-item-card-img">
+                                    <img src="./assets/ipadall.webp" alt="Camera all">
+                                </div>
+                                <div class="hb-item-card-typo">
+                                    <p class="hb-item-card-typo-heading mb-0">
+                                        Apple iPads
+                                    </p>
+                                    <p class="hb-item-card-typo-subheading1 mb-0">
+                                        Shop Now!
+                                    </p>
+                                    <p class="hb-item-card-typo-subheading2 mb-0">
+                                        Liquid Retina Display
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="d-inline-block px-4 py-4 text-center">
+                                <div class="hb-item-card-img">
+                                    <img src="./assets/shirtall.webp" alt="Camera all">
+                                </div>
+                                <div class="hb-item-card-typo">
+                                    <p class="hb-item-card-typo-heading mb-0">
+                                        Roadster, HRX & more
+                                    </p>
+                                    <p class="hb-item-card-typo-subheading1 mb-0">
+                                        From ₹249
+                                    </p>
+                                    <p class="hb-item-card-typo-subheading2 mb-0">
+                                        T-Shirts, Shirts
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="d-inline-block px-4 py-4 text-center">
+                                <div class="hb-item-card-img">
+                                    <img src="./assets/shoeall.webp" alt="Camera all">
+                                </div>
+                                <div class="hb-item-card-typo">
+                                    <p class="hb-item-card-typo-heading mb-0">
+                                        Best selling Styles
+                                    </p>
+                                    <p class="hb-item-card-typo-subheading1 mb-0">
+                                        Min. 40% Off
+                                    </p>
+                                    <p class="hb-item-card-typo-subheading2 mb-0">
+                                        Woodland, U.S. Polo Assn....
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
     </div>
 
     <script src="https://kit.fontawesome.com/87928a113d.js" crossorigin="anonymous"></script>
-
+    <script src="./index.js" defer></script>
 </body>
 
 </html>
