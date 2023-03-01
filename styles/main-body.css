@@ -1,0 +1,138 @@
+.horizontal-bar-items-section {
+    width: 86%;
+}
+
+.horizontal-bar-items-with-card {
+    width: 85%;
+}
+
+.hb-item-card-img {
+    width: 160px;
+    height: 160px;
+    margin: auto;
+}
+
+.hb-item-card-img>img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.hb-item-card-typo-heading {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.hb-item-card-typo-subheading1 {
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #388e3c;
+    padding-top: 8px;
+}
+
+.hb-item-card-typo-subheading2 {
+    opacity: .6;
+    padding-top: 7px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
+
+.horizontal-bar-card {
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/278/278/image/86e6d52663901503.jpg?q=90);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 14px;
+    flex: 1;
+    margin-left: 14px;
+    background-color: #fff;
+}
+
+
+@media only screen and (max-width: 1450px) {
+    .horizontal-bar-items-with-card {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .horizontal-bar-items-with-card {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .horizontal-bar-items-with-card {
+        width: 100%;
+    }
+
+    .horizontal-bar-card {
+        display: none;
+    }
+}
+
+/* ------------------------- Curosol -------------------------- */
+
+.wrapper {
+    display: flex;
+    max-width: 100%;
+    position: relative;
+}
+
+.wrapper i {
+    top: 50%;
+    height: 100px;
+    width: 45px;
+    color: #343F4F;
+    cursor: pointer;
+    font-size: 1.15rem;
+    position: absolute;
+    text-align: center;
+    line-height: 100px;
+    background: #fff;
+    transform: translateY(-50%);
+    transition: transform 0.1s linear;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper i:active {
+    transform: translateY(-50%) scale(0.9);
+}
+
+.wrapper i:hover {
+    background: #f2f2f2;
+}
+
+.wrapper i:first-child {
+    left: 0px;
+    display: none;
+    z-index: 100;
+}
+
+.wrapper i:last-child {
+    right: 0px;
+}
+
+.wrapper .carousel {
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+
+.carousel.dragging {
+    cursor: grab;
+    scroll-behavior: auto;
+}
